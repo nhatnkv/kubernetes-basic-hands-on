@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: webapp-quota
+spec:
+  hard:
+    cpu: "2"
+    memory: 500Mi
+    pods: "10"
